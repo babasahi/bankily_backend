@@ -103,16 +103,11 @@ For a more permanent solution:
 
 ### Authentication
 
-**POST** `/auth/register`
-
-```json
 {
-  "email": "user@example.com",
-  "password": "password123",
-  "full_name": "John Doe",
-  "phone": "+1234567890"
+@"password": "password123",
+"full_name": "John Doe",
+"phone": "+1234567890"
 }
-```
 
 **POST** `/auth/login`
 
